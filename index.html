@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://doyouwannagooutwithme.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style id="react-native-stylesheet"></style>
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head> 
+    <body data-new-gr-c-s-check-loaded="14.1154.0" data-gr-ext-installed="">
+        <div class="container">
+            <div>
+                <h1 class="header_text">Salula Would you be my Val?</h1>
+            </div>
+            <div class="gif_container">
+                
+
+    <dotlottie-player
+     src="https://lottie.host/498c55be-5366-4788-bd01-e77bb2ae3879/KVKZEKpC2Y.json"
+     background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay>
+         
+     </dotlottie-player>
+            </div>
+
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()" style="left:700px; top:643.578px;">No</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "html/yes.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+     
+</body>
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+</html>
