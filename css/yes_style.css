@@ -7,14 +7,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #F8C8DC;
+    background-color: #FEF4E2;
 }
 
 .header_text {
     font-family: 'Product';
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: 000000;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
